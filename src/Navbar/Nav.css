@@ -1,0 +1,86 @@
+.nav-bar-section{
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-bar-sec-placeholder{
+    width: 260px;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border: 1px solid #4e4e4e;
+    padding:6px ;
+    border-radius: 7px;
+}
+.nav-bar-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-bar-sec-placeholder input{
+    width: 70%;
+    border: none;
+    outline: none;
+}
+.nav-bar-sec-placeholder select{
+    width: 30%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #20B486;
+
+   
+}
+.select{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #20b48541;
+    border-radius: 3.5px;
+    padding: 4px;
+}
+.select span{
+    font-size: 14px;
+    color: #20B486;
+}
+.select   option{
+    color: #fff;
+    border: none;
+    outline: none;
+    border: 1px solid #fff;
+    border-radius: 7px; background-color: #20b48588;
+    padding: 5px;
+}
+.nav-bar-list ul{
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+}
+.nav-bar-list #active{
+color: #20B486;
+}
+.nav-bar-list ul li a{
+    color: #000;
+}
+.nab-bar-last{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.nab-bar-last p{
+    font-size: 14px;
+}
+.nab-bar-last button{
+    background-color: #20B486;
+    color: #fff;
+    padding: 6px;
+    border: none;
+    outline: none;
+    border: 1px solid #0fa173;
+    border-radius: 7px;
+}

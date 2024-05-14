@@ -1,0 +1,28 @@
+.comp-sec {
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding: 0em 5em;
+}
+.comp-sec p{
+    font-size: 25px;
+    
+}
+.comp-sec span{
+    color: #20B486;
+    font-weight: bold;
+}
+.comp-img {
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.comp-img img{
+  width: 140px;
+  margin-left:50px;
+  filter: drop-shadow(4px  4px 2px #3f3f3f);
+}

@@ -1,0 +1,69 @@
+.service-sec{
+    margin-top: 250px;
+    width: 100%;
+}
+.service-heading{
+    width: 60%;
+    text-align: center;
+    margin-left: 20%;
+}
+.service-heading p{
+    color: #20B486;
+}
+.service-heading h2{
+    font-size: 2em;
+}
+.service-sec-card{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top: 50px;
+    
+}
+.service-sec-card .sev-rd{
+    padding: 15px;
+    background-color: #f8f8f8;
+    color:#000;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 7px;
+    filter: drop-shadow(2px 4px 2px #838383);
+
+}
+.service-sec-card .sev-rd .p-1{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+    
+}
+.service-sec-card .active{
+    background-color: #20b485f3;
+    color: #fff;
+}
+
+.service-sec-card .sev-rd .p-1 p{
+    font-size:20px;
+}
+.sev-rd p{
+ text-align: start;
+ font-size: 18px;
+
+}
+
+.end-crd{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.end-crd p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #20B486;
+}
+.service-sec-card .ace p{
+    color: #fff;
+}

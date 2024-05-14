@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style: none;
+        text-decoration: none;
+        font-family: "Jost", sans-serif;
+
+
+        font-synthesis: none;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+
+        
+}
+body:root{
+    --green:#20B486;
+    --grey:#838383;
+    --Shadow: #F8F8F8;
+    --blur: #20b4851f;
+}
+
+body::-webkit-scrollbar{
+    background-color: #20B486;
+    width: 10px;
+    border-radius: 7px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #000;
+    width: 10px;
+    border-radius: 7px;
+}
+.padding-web-overall{
+    padding: 1.5em 4em;
+}
+.grey{
+    color: #838383;
+}
+.green{
+   color: #20B486; 
+}
+.black{
+    color: #000;
+}
+.p-set{
+   text-align: center;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.pink{
+    color: #C11574;
+    background-color: #FDF2FA;
+}
+.tale{
+    color: #026AA2;
+    background-color: #F0F9FF;
+}
+.perp{
+    background-color: #EEF4FF;
+    color: #3538CD;
+}

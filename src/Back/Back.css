@@ -1,0 +1,39 @@
+.section{
+    height: 100vh;
+    position: relative;
+    z-index: -1;
+}
+.app-sec img{
+    position: absolute;
+    z-index: -1;
+    top: 3%;
+    height: 500px;
+    
+}
+.app-sec2 img{
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    right: 1%;
+    height: 400px;
+    
+}
+.cir-sec img{
+    position: absolute;
+    z-index: -1;
+    right: 40%;
+    top: 80%;
+    width: 40px;
+    height: 40px;
+}
+.blur-sec3{
+    height: 300px;
+    width: 300px;
+    background-color: #20b4851f;
+    filter: blur(15px);
+    position: absolute;
+    z-index: -1;
+    left: -10%;
+    top: 70%;
+    border-radius: 50%;
+}

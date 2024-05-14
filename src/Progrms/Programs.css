@@ -1,0 +1,104 @@
+.prog-sec{
+    width: 100%;
+    margin-top: 100px;
+}
+.p-p {
+ color:#20B486;
+}
+#t-t{
+    color: #b1b1b1f8;
+    font-size: large;
+}
+.prog-sec h1{
+    font-weight: 500;
+}
+.prog-sec-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.prog-img{
+    height: fit-content;
+    width: fit-content;
+    background-color: #f8fefe;
+    filter: drop-shadow(2px 4px 2px #818181);
+    padding: 10px;
+    border-radius: 4px;
+    width: 100%;
+}
+.prog-img img{
+    width: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+.prog-1{
+    display: flex;
+    justify-content: space-between;
+}
+.prog-1 h2{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.prog-img p{
+    font-size: 16px;
+}
+.prog-2{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+.prog-2 span{
+    font-size: 14px;
+    color: #818181;
+}
+.icon{
+    color: gold;
+    font-size: 18px;
+}
+
+.prog-end{
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.id-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.id-box img{
+    width: 30px;
+
+}
+.id-box-txt p{
+    font-size: 14px;
+}
+.prog-end span{
+   font-size: 20px;
+   font-weight: 600;
+   align-items: center;
+}
+.btuuon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top : 40px;
+}
+.btuuon  button{
+    text-align: center;
+    padding: 5px;
+    width: 140px;
+    border: none;
+    outline: none;
+    border: 1px solid rgba(139, 139, 139, 0.63);
+    background-color: #838383;
+    font-size: 12px;
+    border-radius: 7px;
+    color: #fff;
+}

@@ -1,0 +1,123 @@
+.main-landing-page {
+    height: fit-content;
+    position: absolute;
+    z-index: 999;
+    top: 25%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.mainland-right-sec{
+    padding-left: 2em;
+}
+.mainland-right-sec .main-top-txt h1{
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.mainland-right-sec .main-top-txt h1 span{
+    color: #20B486;
+}
+.mainland-right-sec .main-top-txt p{
+    color:#646464;
+}
+.main-center-btns{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.main-center-btns button{
+    background-color: #20B486;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    margin-top: 30px;
+    width: 140px;
+    transition: all 0.5s;
+}
+.main-center-btns button:hover{
+    background-color: #36bb9162;
+    color: #08b47e;
+}
+.main-center-btns  #btn{
+    background-color: #36bb9162;
+    color: #08b47e;
+    transition: all 0.5s;
+
+}
+.main-center-btns  #btn:hover{
+    background-color: #20B486;
+    color: #fff;
+
+}
+.main-last-logos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    gap: 10px;
+}
+.main-last-logos .img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.main-last-logos .img img{
+    width: 25px;
+}
+.main-last-logos .img p{
+
+    font-size: 14px;
+}
+
+/* left side */
+
+.main-land-left-sec .main-left-circle{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border:1px solid #20B486;
+    position: absolute;
+    z-index: -1;
+    top: 0%;
+    right: 15%;
+}
+.main-land-left-sec .img-overlay {
+    height: 450px;
+    width: 450px;
+    background-color: #08b47e;
+    border-radius: 50%; position: relative;
+    right: 1%;
+   /* background-image: url(./src/assets/student.svg);*/
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    display:flex;
+    align-items: center; padding-top: 30px; padding-left: 30px;
+}
+.main-land-left-sec  #imh {
+    width: 220px;
+    position: absolute;
+    z-index: 1;
+    top:15%;
+    right: 40%;
+}
+.main-land-left-sec  #imt  {
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    z-index: 1;
+    top:1%;
+    right: 2%;
+}
+.main-land-left-sec  #imp  {
+    width: 200px;
+    position: absolute;
+    z-index: 1;
+    top:55%;
+    right: 2%;
+}
